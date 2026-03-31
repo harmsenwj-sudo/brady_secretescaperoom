@@ -1,0 +1,1 @@
+Full game with case-insensitive text answer fixes

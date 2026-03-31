@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang='nl'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+<title>Rummy009 — De Laatste Missie</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header class='game-header'><h1>Rummy009 — De Laatste Missie</h1>
+<div class='progress'><div id='progress-bar'></div></div></header>
+
+<div id='timer' class='timer-display' style='display:none;'>30:00</div>
+
+<div id='start-screen' class='card'>
+<h2>Welkom Vrijgezel!</h2>
+<p>Je staat op het punt om te ontsnappen uit een reeks uitdagende puzzels.<br>
+Los alle puzzels op en ontdek de volgende, geheime locatie…</p>
+<p><strong>Je hebt precies 30 minuten de tijd!</strong></p>
+<button class='btn btn-primary' onclick='startGame()'>Start</button>
+</div>
+
+<main id='game-container' style='display:none;'>
+<section id='card-container'></section>
+</main>
+
+<script src='script.js'></script>
+</body>
+</html>
