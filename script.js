@@ -8,7 +8,7 @@ const puzzles = [
     {id:'p2',type:'choice',title:'🥩 T-bone',prompt:'Waar bevindt zich de T-bone?',options:['In de borst','In de schouder','In de lende (short loin)','In de nek'],correct:2},
     {id:'p3',type:'order',title:'🎣 De Vangst',prompt:'Zet in volgorde: vul het juiste getal in (1–5)',items:['Binnenhalen','Wachten','Aanslaan','Uitgooien','Dobber verdwijnt'],correct:['Uitgooien','Wachten','Dobber verdwijnt','Aanslaan','Binnenhalen']},
     {id:'p4',type:'text',title:'Raadsel',prompt:'Ik heb een arm die kan grijpen en een trompet die geen muziek maakt. Wie ben ik?',answer:'olifant'},
-    {id:'p5',type:'choice',title:'💖 Eva-vraag',prompt:'Wat viel Rummy009 als eerste op aan Eva?',options:['Haar intelligentie','Haar 🍑','Haar spirituele energie','Haar oog voor detail'],correct:1},
+    {id:'p5',type:'choice',title:'💖 Eva-vraag',prompt:'Wat viel Brady als eerste op aan Eva?',options:['Haar intelligentie','Haar 🍑','Haar spirituele energie','Haar oog voor detail'],correct:1},
     {id:'p6',type:'choice',title:'🌴 Californication',prompt:'Welke thematische betekenis wordt vaak gekoppeld aan “Californication”?',options:['Kritiek op Hollywood en droomvervorming','Autobiografisch verhaal','Metafoor voor natuurbranden','Religieuze beweging'],correct:0},
     {id:'p7',type:'choice',title:'🧠 Begrijpend Lezen – Relaties & SOA’s',prompt:'Brady en Eva hebben een exclusieve relatie sinds vier maanden. Brady had wisselende contacten, Eva niet. Wie moet zich laten testen?',options:['Alleen Eva','Alleen Brady','Beide partners','Niemand'],correct:2},
     {id:'p9',type:'code',title:'⚡ Elektriciteit – P = U × I',prompt:'In het Stedin-lab test Brady een apparaat op 10 volt en 2,0 ampère. Wat is het vermogen in watt?',answer:'20'}
